@@ -1,0 +1,15 @@
+th {
+    background-color: black;
+    color: white;
+    border: 3px grey solid;
+}
+
+.td1 {
+    background-color: aqua;
+    border: 3px grey solid;
+}
+
+.td2 {
+    background-color: aquamarine;
+    border: 3px grey solid;
+}
