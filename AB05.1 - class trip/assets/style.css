@@ -1,3 +1,7 @@
+* {
+    margin: 0px;
+}
+
 body {
     font-family: Arial, Helvetica, sans-serif;
     margin: 0px;
@@ -5,7 +9,7 @@ body {
 
 header {
     background-color: lightblue;
-    background-image: url("img/saeulen.jpg");
+    background-image: url("img/columns.jpg");
     height: 150px
 }
 
@@ -19,3 +23,57 @@ header p {
     padding-left: 100px;
 }
 
+nav ul {
+    padding: 0px;
+}
+
+nav li {
+    list-style-type: none;
+    display: inline-block;
+    height: 1.5em;
+    padding: 0 1em;
+    line-height: 1.5em;
+    border-right: black 1px solid;
+}
+
+nav a {
+    color: black;
+    text-decoration: none; 
+}
+
+article {
+    margin: 20px 40px;
+}
+
+article h1 {
+    margin-bottom: 0.4em;
+}
+
+article p, article ul{
+    margin-bottom: 1em;
+    line-height: 1.5em;
+}
+
+footer {
+    line-height: 1.5em;
+    text-align: center;
+}
+
+.shadow {
+    background-image: url("img/shadow.png");
+    height: 12px;
+    background-repeat: repeat-x;
+}
+
+.bar {
+    color: black;
+    background-color: #ceb98e;
+}
+
+.nopad {
+    padding-right: 0px;
+}
+
+.highlight :hover {
+    text-decoration: underline;
+}
