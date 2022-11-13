@@ -1,0 +1,43 @@
+body {
+    background-color: #BBBBEE;
+    font-family:sans-serif;
+}
+
+h1, h3 {
+    background-color: cornflowerblue;
+    font-weight: bold;
+    color: white;
+    border: 2px solid white;
+}
+
+.sv {
+    border: 2px solid blue;
+    color: blue;
+}
+
+.svbild {
+    background-repeat: repeat;
+    background-image: url("img/schule.jpg");
+    height: 150px;
+}
+
+.svsitzungen {
+    list-style: square url("img/willkommen.jpg");
+}
+
+.lnklist {
+    list-style: square;
+    color: blue;
+}
+
+.lnk {
+    color: blue;
+}
+
+.links {
+    text-decoration-line: unset;
+}
+
+.links :hover {
+    color: blue;
+}
