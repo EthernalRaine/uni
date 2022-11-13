@@ -23,21 +23,24 @@ h1, h3 {
 
 .svsitzungen {
     list-style: square url("img/willkommen.jpg");
-}
-
-.lnklist {
-    list-style: square;
     color: blue;
 }
 
-.lnk {
-    color: blue;
+.remund {
+    color: cornflowerblue;
+    text-decoration-line: unset;
 }
 
 .links {
-    text-decoration-line: unset;
+    color: blue;
+    list-style: square;
 }
 
 .links :hover {
     color: blue;
+}
+
+#copy {
+    text-align: right;
+    padding-bottom: 40px;
 }
