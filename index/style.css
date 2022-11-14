@@ -7,7 +7,9 @@
 body {
     background-color: slategray;
     max-width: 50em;
-    margin: auto;
+    margin: auto; 
+    height: 100%; 
+    overflow: hidden;
 }
 
 /*== Classes ==*/
@@ -20,10 +22,6 @@ body {
     color: darkblue;
     text-decoration: none;
     cursor: pointer;
-}
-
-.box {
-    height:71.5vh;
 }
 
 /*== IDs ==*/
