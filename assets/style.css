@@ -12,6 +12,11 @@ body {
     overflow: hidden;
 }
 
+address {
+    text-align: right;
+    color:indigo;
+}
+
 /*== Classes ==*/
 
 .pfp {
