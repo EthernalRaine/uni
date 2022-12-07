@@ -29,6 +29,11 @@ address {
     color:black;
 }
 
+.item {
+    color:darkblue;
+    text-decoration: none;
+}
+
 .iefolder {
     list-style-image: url("../assets/directory_e-1.png");
     text-decoration: none;
@@ -47,7 +52,6 @@ address {
     list-style-image: url("../assets/html-1.png");
     text-decoration: none;
     cursor: pointer;
-    color:darkblue
 }
 
 .docxfile {
