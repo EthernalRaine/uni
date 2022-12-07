@@ -8,7 +8,8 @@ body {
     background-color: slategray;
     max-width: 50em;
     margin: auto; 
-    height: 100%; 
+    height: 100vh;
+    width: 100vh;
     overflow: hidden;
 }
 
@@ -24,7 +25,45 @@ address {
 }
 
 .list {
-    color: darkblue;
+    padding-left: 15px;
+    color:black;
+}
+
+.iefolder {
+    list-style-image: url("../assets/directory_e-1.png");
+    text-decoration: none;
+    cursor: pointer;
+    font-size: large;
+}
+
+.regfolder {
+    list-style-image: url("../assets/directory_open_cabinet_fc-2.png");
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.htmlfile {
+    list-style-type:square;
+    list-style-image: url("../assets/html-1.png");
+    text-decoration: none;
+    cursor: pointer;
+    color:darkblue
+}
+
+.docxfile {
+    list-style-image: url("../assets/word_002-1.png");
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.pptxfile {
+    list-style-image: url("../assets/powerpoint_002-1.png");
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.xlsxfile {
+    list-style-image: url("../assets/excel_002-1.png");
     text-decoration: none;
     cursor: pointer;
 }
