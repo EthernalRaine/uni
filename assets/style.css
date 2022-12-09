@@ -10,7 +10,6 @@ body {
     margin: auto; 
     height: 100vh;
     width: 100vh;
-    overflow: hidden;
 }
 
 address {
@@ -32,44 +31,54 @@ address {
 .item {
     color:darkblue;
     text-decoration: none;
+    cursor: pointer;
+}
+
+.placeholder {
+    color:darkslateblue;
+    text-decoration:line-through;
+    cursor:not-allowed;
+}
+
+.htmlplaceholder {
+    list-style-image: url("../assets/html2_new-0.png");
+    text-decoration: none;
+}
+
+.iedonefolder {
+    list-style-image: url("../assets/directory_favorites-0.png");
+    text-decoration: none;
+}
+
+.iewipfolder {
+    list-style-image: url("../assets/directory_e_open-0.png");
+    text-decoration: none;
 }
 
 .iefolder {
     list-style-image: url("../assets/directory_e-1.png");
     text-decoration: none;
-    cursor: pointer;
-    font-size: large;
 }
 
 .regfolder {
     list-style-image: url("../assets/directory_open_cabinet_fc-2.png");
     text-decoration: none;
-    cursor: pointer;
 }
 
 .htmlfile {
-    list-style-type:square;
-    list-style-image: url("../assets/html-1.png");
-    text-decoration: none;
-    cursor: pointer;
+    list-style-image: url("../assets/html-1.png");  
 }
 
 .docxfile {
     list-style-image: url("../assets/word_002-1.png");
-    text-decoration: none;
-    cursor: pointer;
 }
 
 .pptxfile {
     list-style-image: url("../assets/powerpoint_002-1.png");
-    text-decoration: none;
-    cursor: pointer;
 }
 
 .xlsxfile {
     list-style-image: url("../assets/excel_002-1.png");
-    text-decoration: none;
-    cursor: pointer;
 }
 
 /*== IDs ==*/
